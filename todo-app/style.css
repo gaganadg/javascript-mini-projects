@@ -1,0 +1,63 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color:peachpuff;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.container {
+    width: 300px;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+/* Style all inputs */
+input {
+    width: 70%;
+    padding: 8px;
+}
+
+/* Style the main Add button specifically */
+#addBtn {
+    padding: 8px;
+    cursor: pointer;
+    background-color: green;
+    color: white;
+    border: none;
+}
+
+/* Style task list */
+ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+}
+
+li {
+    padding: 8px;
+    margin: 5px 0;
+    background:#eee;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 5px;
+}
+
+/* Completed task style */
+.completed {
+    text-decoration: line-through;
+    color: gray;
+}
+
+/* Delete button style */
+.delete-btn {
+    background: red;
+    color: white;
+    border: none;
+    padding: 5px 8px;
+    border-radius: 4px;
+    cursor: pointer;
+}
