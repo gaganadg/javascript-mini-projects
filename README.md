@@ -18,8 +18,6 @@ This helped me understand:
  setInterval() 
  Updating content on the page in real time  
 
-
-
  Theme Changer
 A light and dark mode toggle.
 
